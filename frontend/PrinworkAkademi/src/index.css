@@ -1,0 +1,28 @@
+:root {
+    /* Ana Renkler */
+    --primary-orange: #FB9E1B;
+    /* Marka Rengi */
+    --primary-green: #3DDC59;
+    /* CTA - Aksiyon Rengi */
+
+    /* Metin ve Arka Plan */
+    --text-dark: #ffffff;
+    /* Ana Başlıklar */
+    --text-medium: #b0b0b0;
+    /* Açıklama Metinleri */
+    --bg-white: #1E1E1E;
+    /* Sayfa Zemini */
+    --bg-light: #121212;
+    /* Hafif Gri Alanlar - Artık Koyu */
+
+    /* Durum Renkleri (Opsiyonel) */
+    --border-color: #E5E5E5;
+    /* Çerçeveler */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg-light);
+    color: var(--text-dark);
+}
